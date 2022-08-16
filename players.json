@@ -8,8 +8,8 @@
 
     "hosts": [
         {
-            "name": "study",
-            "Name": "Study",
+            "name": "kitchen",
+            "Name": "Kitchen",
             "airplay": {
                 "port": "5106"
             },
@@ -23,8 +23,8 @@
             "streams": ["spotify", "airplay", "iris"]
         },
         {
-            "name": "library",
-            "Name": "Library",
+            "name": "bedroom",
+            "Name": "Bedroom",
             "airplay": {
                 "port": "5107"
             },
@@ -38,8 +38,8 @@
             "streams": ["spotify", "airplay", "iris"]
         },
         {
-            "name": "lounge",
-            "Name": "Lounge",
+            "name": "basement",
+            "Name": "Basement",
             "airplay": {
                 "port": "5108"
             },
@@ -53,8 +53,8 @@
             "streams": ["spotify", "airplay", "iris"]
         },
         {
-            "name": "ballroom",
-            "Name": "Ballroom",
+            "name": "stereo",
+            "Name": "Stereo",
             "airplay": {
                 "port": "5109"
             },
@@ -64,52 +64,6 @@
             "spotify": {
               "event": "librespot-event.sh",
               "zeroconf": "39809"
-            },
-            "streams": ["spotify", "airplay", "iris"]
-        },
-        {
-            "name": "outside",
-            "Name": "Outside",
-            "airplay": {
-                "port": "5110"
-            },
-            "snapcast": {
-                "volume": 100
-            },
-            "spotify": {
-              "event": "librespot-event.sh",
-              "zeroconf": "39810"
-            },
-            "streams": ["spotify", "airplay", "iris"]
-        },
-        {
-            "name": "kitchen",
-            "Name": "Kitchen",
-            "airplay": {
-                "port": "5111"
-            },
-            "snapcast": {
-                "volume": 65
-            },
-            "spotify": {
-              "event": "librespot-event.sh",
-              "zeroconf": "39811"
-            },
-            "streams": ["spotify", "airplay", "iris"],
-            "other_streams": ["Barn Chromecast"]
-        },
-        {
-            "name": "bedroom-mark",
-            "Name": "Bedroom Mark",
-            "airplay": {
-                "port": "5112"
-            },
-            "snapcast": {
-                "volume": 100
-            },
-            "spotify": {
-              "event": "librespot-event.sh",
-              "zeroconf": "39812"
             },
             "streams": ["spotify", "airplay", "iris"]
         }
@@ -127,7 +81,7 @@
               "zeroconf": "39801"
             },
             "streams": ["spotify", "airplay", "iris"],
-            "clients": [ "study", "kitchen", "lounge", "library", "ballroom", "outside", "bedroom-mark" ]
+            "clients": [ "kitchen", "bedroom", "basement", "stereo" ]
         }
     ]
 }

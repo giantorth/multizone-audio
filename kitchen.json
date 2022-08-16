@@ -9,18 +9,21 @@
 
     "mopidy": {
         "host": "media",
-        "http_port": "6691",
-        "mpd_port": "6611"
+        "http_port": "6686",
+        "mpd_port": "6606"
     },
     "airplay": {
-        "port": "5111"
+        "port": "5106"
     },
     "mqtt": {
         "host": "pixie3"
     },
+    "kodi": {
+      "port": 8080
+    },
     "snapcast": {
         "host": "media",
-        "opts": "-s Device --mixer=hardware:Speaker"
+        "opts": "--mixer=hardware"
     },
 
     "dev": false

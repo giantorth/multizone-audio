@@ -1,6 +1,6 @@
 {
-    "name": "library",
-    "Name": "Library",
+    "name": "stereo",
+    "Name": "Stereo",
 
     "path": {
         "media-root": "/mnt/md6-media",
@@ -9,18 +9,21 @@
 
     "mopidy": {
         "host": "media",
-        "http_port": "6687",
-        "mpd_port": "6607"
+        "http_port": "6689",
+        "mpd_port": "6609"
     },
     "airplay": {
-        "port": "5107"
+        "port": "5109"
     },
     "mqtt": {
         "host": "pixie3"
     },
+    "kodi": {
+      "port": 8080
+    },
     "snapcast": {
         "host": "media",
-        "opts": "-s Device --mixer=hardware:Speaker"
+        "opts": "--mixer=hardware"
     },
 
     "dev": false

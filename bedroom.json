@@ -1,7 +1,6 @@
 {
-    "name": "bedroom-mark",
-    "name_": "bedroom_mark",
-    "Name": "Bedroom Mark",
+    "name": "bedroom",
+    "Name": "Bedroom",
 
     "path": {
         "media-root": "/mnt/md6-media",
@@ -10,11 +9,11 @@
 
     "mopidy": {
         "host": "media",
-        "http_port": "6692",
-        "mpd_port": "6612"
+        "http_port": "6687",
+        "mpd_port": "6607"
     },
     "airplay": {
-        "port": "5112"
+        "port": "5107"
     },
     "mqtt": {
         "host": "pixie3"
