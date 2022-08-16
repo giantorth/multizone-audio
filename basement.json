@@ -18,9 +18,6 @@
     "mqtt": {
         "host": "pixie3"
     },
-    "kodi": {
-      "port": 8080
-    },
     "snapcast": {
         "host": "media",
         "opts": "--mixer=hardware"
