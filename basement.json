@@ -8,7 +8,7 @@
     },
 
     "mopidy": {
-        "host": "media",
+        "host": "10.0.10.100",
         "http_port": "6688",
         "mpd_port": "6608"
     },
@@ -16,7 +16,7 @@
         "port": "5108"
     },
     "mqtt": {
-        "host": "pixie3"
+        "host": "10.0.10.100"
     },
     "snapcast": {
         "host": "media",
