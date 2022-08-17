@@ -2,10 +2,6 @@
     "config_root": "/etc/multizone-audio",
     "python": "python3",
 
-    "chromecast": {
-        "device": "default:CARD=Device"
-    },
-
     "hosts": [
         {
             "name": "kitchen",

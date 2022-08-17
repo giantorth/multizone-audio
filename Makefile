@@ -4,7 +4,7 @@ DEV_SYSTEMD_CONFIG_DIR := ~/.config/systemd/user
 LIVE_SYSTEMD_CONFIG_DIR := /etc/systemd/system
 
 VENV := .venv
-SYSTEMCTL_USER := 
+SYSTEMCTL_USER := root
 
 EXP_HOSTS := {kitchen,library,outside,bedroom-mark}
 
@@ -72,7 +72,7 @@ endif
 $(VENV):
 	$(info "No chevron in $(PATH). Installing in $(VENV)")
 	python3 -m venv $(VENV)
-	$(VENV)/bin/pip install chevron
+	$(VENV)/bin/pip3 install chevron
 
 venv: $(VENV)
 
