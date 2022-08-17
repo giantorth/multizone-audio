@@ -9,13 +9,10 @@ SYSTEMCTL_USER :=
 EXP_HOSTS := {kitchen,library,outside,bedroom-mark}
 
 ALL_HOSTS := \
-	study \
 	kitchen \
-	library \
-	lounge \
-	ballroom \
-	outside \
-	bedroom-mark \
+	basement \
+	bedroom \
+	stereo \
 
 ALL_ZONES := \
 	$(ALL_HOSTS) \
